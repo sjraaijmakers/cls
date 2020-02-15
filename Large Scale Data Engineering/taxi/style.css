@@ -1,0 +1,25 @@
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Set opacity for menu */
+.card.menu {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.card.menu .list-group-item{
+    background:none;
+    border:none;
+}
+
+.mapboxgl-popup {
+    min-width: 600px;
+}
+
+/* Show enumerate for ol */
+ol li.list-group-item {    
+    display: list-item;
+}
