@@ -1,0 +1,21 @@
+function x = linear(p,v)
+    global k;
+    global dt;
+    
+    p_start = p(1)
+    p_end = p(2)
+    
+    % descent    
+    if(p_start > p_end)
+        
+    
+    current = (k*dt);
+    
+    tmp = 1 / (p(1) / current);
+    
+    if(tmp > 1)
+        x = 1;
+    else
+        x = tmp;
+end
+
