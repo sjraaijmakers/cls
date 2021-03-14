@@ -46,6 +46,7 @@ def plot_TSP_cs_weight(filename, save=False):
         plt.savefig("figs/" + filename + "_cooling_schedule_cost.pdf")
     else:
         plt.show()
+        
     plt.clf()    
     
 
